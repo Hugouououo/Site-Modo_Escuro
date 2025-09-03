@@ -1,0 +1,53 @@
+body{
+    background: white linear-gradient(to bottom, white, rgb(201, 173, 230)) center center no-repeat fixed;
+
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    font: normal bold 3em sans-serif;
+}
+
+div{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+input{
+    margin: auto;
+    border-radius: 7px;
+    border-width: 0.5px;
+    border-style: solid;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 3%;
+}
+
+input:hover{
+    background-color: rgba(120, 119, 119, 0.614);
+    color: white;
+    cursor: pointer;
+}
+
+/* Escuro */
+
+body.escuro{
+    background: black linear-gradient(to bottom, black, rgb(26, 23, 66)) center center no-repeat fixed;
+}
+body.escuro h1{
+    color: white;
+}
+
+body.claro{
+    background: white linear-gradient(to bottom, white,  rgb(201, 173, 230)) center center no-repeat fixed;
+}
+body.claro h1{
+    color: black;
+}
